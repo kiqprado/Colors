@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  font-family: 'Gruppo', cursive;
+  font-size: 22px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 35px 0 35px 0;
+}
+
+.simbols {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 33px;
+
+  color: white;
+  margin: 25px 0 25px 0;
+}
+
+/*            Cores Primárias        */
+
+.primarias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 77px;
+}
+
+.azul {
+  width: 77px;
+  height: 77px;
+
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: blue;
+}
+
+.amarelo {
+  width: 77px;
+  height: 77px;
+
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: yellow;
+}
+
+.vermelho {
+  width: 77px;
+  height: 77px;
+
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: red;
+}
+
+/*        Cores Secundárias         */
+
+.secundarias1,
+.secundarias2,
+.secundarias3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+  margin-bottom: 25px;
+}
+
+.verde {
+  width: 77px;
+  height: 77px;
+
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: green;
+}
+
+.orange {
+  width: 77px;
+  height: 77px;
+
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: orange;
+}
+
+.purple {
+  width: 77px;
+  height: 77px;
+
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: purple;
+}
